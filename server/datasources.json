@@ -2,5 +2,24 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "postgresDs": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://root:pass@localhost/testdb",
+    "database": "testdb",
+    "password": "pass",
+    "name": "postgresDs",
+    "user": "root",
+    "connector": "postgresql"
+  },
+  "mongodbDs": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost/testdb",
+    "database": "testdb",
+    "name": "mongodb",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }

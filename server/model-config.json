@@ -16,6 +16,9 @@
   "User": {
     "dataSource": "db"
   },
+  "Teams": {
+    "dataSource": "postgresDs"
+  },
   "AccessToken": {
     "dataSource": "db",
     "public": false
