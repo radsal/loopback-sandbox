@@ -16,7 +16,7 @@ module.exports = function(app) {
       if (err) throw err;
       console.log('Result: ' + require('util').inspect(result));
     });
-    Teams.find({where: { Players: {like: "Phillipe Coutinho"}}
+    Teams.find({where: { Players:"Phillipe Coutinho"}
       }, function(err, result) {
         if (err) throw err;
         console.log('Result: ' + require('util').inspect(result));
