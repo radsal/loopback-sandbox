@@ -17,7 +17,10 @@
     "Players": {
       "type": [
         "string"
-      ]
+      ],
+      "postgresql": {
+        "dataType": "varchar[]"
+      }
     }
   },
   "validations": [],
